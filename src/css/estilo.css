@@ -1,0 +1,100 @@
+:root{
+    --cor-bg:#674baf;
+    
+}
+
+body{
+    background-color: var(--cor-bg);
+}
+
+.imagem-fundo{
+    position:absolute;
+    z-index: -1;
+    height: 100vh;
+    top: 0;
+    
+    
+    
+}
+
+
+.cabecalho{
+    margin: 40px;
+    
+}
+
+.cabecalho .logo{
+    max-width: 200px;
+    padding: 10px;
+}
+
+.container{
+    max-width: 1440px;
+    display: flex;
+    justify-items: center;
+    margin: 0 25px;
+    padding: 15px;
+    
+}
+
+.container .imagem-tela{
+    max-width: 40vw;
+}
+
+.container .informacoes{
+    
+    height:270px;
+    width: 40vw;
+    flex-direction: column;
+    padding: 15px;
+    margin: 15px auto;
+    align-items: center;
+    color: #ffffff
+}
+.informacoes{
+    align-items: center;
+}
+
+.informacoes h1{
+    font-size: 35px;
+    font-family: "poppins";
+    width:80%;
+}
+
+.informacoes p{
+    
+    font-size: 18px;
+    font-family: "open sans";
+    margin: 25px auto;
+    text-align: justify;
+    padding-right: 10px;
+    
+}
+
+.informacoes button{
+    font-family: "open sans";
+    padding: 10px 60px;
+    margin:10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    color:var(--cor-bg);
+    cursor: pointer;
+}
+
+.rodape{
+    display: flex;
+    justify-content: flex-end;
+    margin:0 30px 15px 0;
+    
+}
+
+.rodape .icone{
+    padding: 2px ;
+    margin-right: 10px;
+    border: 1px solid #ffffff;
+    border-radius:50% ; 
+    cursor: pointer;     
+}
+

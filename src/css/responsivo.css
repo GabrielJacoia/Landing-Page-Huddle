@@ -1,0 +1,50 @@
+@media(max-width:375px){
+    
+    .cabecalho{
+        display: flex;
+        margin: 15px auto;
+        justify-content: center;
+    }
+
+    
+    .container{
+        display: flex;
+        flex-direction: column; 
+    }
+    .container .imagem-tela{
+        max-width: 80vw;
+        margin: 0 auto ;
+    }
+    
+    .informacoes{
+        display:flex;
+        flex-direction: row;
+    }
+
+    .informacoes h1{
+        font-size:25px;
+        width: 290px;
+        font-family: "poppins";
+    }
+
+    .informacoes p{
+        font-size: 15px;
+        text-align: center;
+        width: 250px;
+        margin: 10px 0;
+    }
+
+    .informacoes button{
+        margin-top: 25px;
+    }
+
+    .rodape{
+        display: flex;
+        justify-content: center;
+
+        margin-top: 75px;
+        margin-left: 35px;
+    }
+    
+    
+}
